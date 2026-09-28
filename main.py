@@ -24,7 +24,7 @@ player = FirstPersonController(
 )
 
 def update():
-    """Rotate our monument cube every frame"""
+    """Rotate our monument cube every frame to make it look more dynamic."""
     cube.rotation_y += time.dt * 45
     cube.rotation_x += time.dt * 20
 
